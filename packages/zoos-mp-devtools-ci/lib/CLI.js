@@ -37,7 +37,7 @@ class CLI {
     // 检查安装路径是否存在
     if (!(await fs.pathExists(this.devToolsInstallPath)))
       throw new Error(
-        `微信开发者工具安装路径“${this.devToolsInstallPath}”不存在,请在"cheers.config.js"文件中配置“compiler.options.devToolsDir”属性`
+        `微信开发者工具安装路径“${this.devToolsInstallPath}”不存在,请在"zoos.config.js"文件中配置“compiler.options.devToolsDir”属性`
       );
 
     // 检查是否开启了命令行

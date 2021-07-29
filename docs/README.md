@@ -9,7 +9,7 @@ features:
   - title: 功能丰富
     details: 对Typescript、Less、Sass、Eslint提供开箱即用的支持。
   - title: 持续集成、自动构建
-    details: 自动构建NPM、上传小程序代码为体验版，可集成到自己的git CI工作流中（例如GitLab CI）,用过的都说"cheers~"
+    details: 自动构建NPM、上传小程序代码为体验版，可集成到自己的git CI工作流中（例如GitLab CI）,用过的都说"zoos~"
   - title: 小程序体积包过大的“最后一公里”方案
     details: 支持构建时将小程序内使用的图片自动上传到阿里云OSS，同时自动替换项目内图片引用
   - title: 简洁至上

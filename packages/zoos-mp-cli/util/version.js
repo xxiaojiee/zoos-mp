@@ -1,14 +1,12 @@
 const chalk = require("chalk");
 const compareVersions = require("compare-versions");
-const banner = `
-       _
-      | |
-   ___| |__   ___  ___ _ __ ___ ______ _ __ ___  _ __
-  / __| '_ \\ / _ \\/ _ \\ '__/ __|______| '_ \` _ \\| '_ \\
- | (__| | | |  __/  __/ |  \\__ \\      | | | | | | |_) |
-  \\___|_| |_|\\___|\\___|_|  |___/      |_| |_| |_| .__/
-                                                | |
-                                                |_|
+const banner = `　　　　　　　　　　　　　　　　　　
+____  ____  ____  ____
+/_   \/  _ \/  _ \/ ___\
+ /   /| / \|| / \||    \
+/   /_| \_/|| \_/|\___ |
+\____/\____/\____/\____/
+　　　　　　　　　　　　　　　　　　　　　　　　　　　
 `;
 
 module.exports = (localVersion = "0", latestVersion = "0", showVersion = false) => {

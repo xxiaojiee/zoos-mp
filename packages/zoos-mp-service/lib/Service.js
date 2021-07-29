@@ -13,7 +13,7 @@ const PluginAPI = require("./PluginAPI");
 
 module.exports = class Service {
   constructor(context) {
-    process.env.CHEERS_MP_CLI_CONTEXT = context;
+    process.env.ZOOS_MP_CLI_CONTEXT = context;
 
     /** 确保Service只被初始化一次 */
     this.initialized = false;
@@ -65,10 +65,10 @@ module.exports = class Service {
     plugins = builtInPlugins.concat(projectPlugins);
 
     // 项目本地的插件
-    if (this.pkg.cheersPlugins && this.pkg.cheersPlugins.service) {
-      const files = this.pkg.cheersPlugins.service;
+    if (this.pkg.zoosPlugins && this.pkg.zoosPlugins.service) {
+      const files = this.pkg.zoosPlugins.service;
       if (!Array.isArray(files)) {
-        throw new Error(`无效的类型选项 'cheersPlugins.service', 期望得到 'array' 但是得到了 ${typeof files}.`);
+        throw new Error(`无效的类型选项 'zoosPlugins.service', 期望得到 'array' 但是得到了 ${typeof files}.`);
       }
       plugins = plugins.concat(
         files.map((file) => ({
@@ -124,12 +124,12 @@ module.exports = class Service {
   }
 
   /**
-   * 加载用户配置 (根目录下的 cheers.config.js 文件)
+   * 加载用户配置 (根目录下的 zoos.config.js 文件)
    * @return {Object} userOptions
    */
   loadUserOptions() {
     let fileConfig;
-    const configPath = path.resolve(this.context, "cheers.config.js");
+    const configPath = path.resolve(this.context, "zoos.config.js");
     if (fs.existsSync(configPath)) {
       try {
         fileConfig = require(configPath);
@@ -141,20 +141,20 @@ module.exports = class Service {
         if (!fileConfig || typeof fileConfig !== "object") {
           error(
             `Error loading ${chalk.bold(
-              "cheers.config.js"
+              "zoos.config.js"
             )}: should export an object or a function that returns object.`
           );
           fileConfig = null;
         }
       } catch (e) {
-        error(`Error loading ${chalk.bold("cheers.config.js")}:`);
+        error(`Error loading ${chalk.bold("zoos.config.js")}:`);
         throw e;
       }
     }
 
     // 校验选项
     validate(fileConfig, (msg) => {
-      error(`Invalid options in ${chalk.bold("cheers.config.js")}: ${msg}`);
+      error(`Invalid options in ${chalk.bold("zoos.config.js")}: ${msg}`);
     });
 
     return fileConfig;
@@ -188,7 +188,7 @@ module.exports = class Service {
     process.env.PLATFORM = args.platform || "wechat";
     args.platform = process.env.PLATFORM;
 
-    // 载入环境变量、用户配置(cheers.config.js)、挂载插件
+    // 载入环境变量、用户配置(zoos.config.js)、挂载插件
     this.init(mode, name);
 
     // 将用户输入的命令和插件注册命令匹配，如果存在则执行相应的回调函数

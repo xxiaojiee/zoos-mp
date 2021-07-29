@@ -1,4 +1,4 @@
-# cheers-config.js
+# zoos-config.js
 
 ## productionSourceMap
 

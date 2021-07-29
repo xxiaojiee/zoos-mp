@@ -1,4 +1,4 @@
-const prefixRE = /^CHEERS_MP_/;
+const prefixRE = /^ZOOS_MP_/;
 const systemEnvWhiteList = ["NODE_ENV", "APPID"];
 
 module.exports = function resolveClientEnv() {

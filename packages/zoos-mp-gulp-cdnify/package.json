@@ -1,5 +1,5 @@
 {
-  "name": "gulp-cdnify-plus",
+  "name": "zoos-mp-gulp-cdnify",
   "version": "1.0.0",
   "description": "将css和wxml文件中的本地URL转换为CDN的URL",
   "keywords": [
@@ -8,7 +8,7 @@
     "url"
   ],
   "author": "xxiaojiee",
-  "homepage": "https://github.com/xxiaojiee/zoos-mp/tree/master/packages/gulp-cdnify-plus",
+  "homepage": "https://github.com/xxiaojiee/zoos-mp/tree/master/packages/zoos-mp-gulp-cdnify",
   "license": "MIT",
   "main": "lib/index.js",
   "directories": {
