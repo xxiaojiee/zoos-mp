@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "packages/zoos-mp-*"
+  ],
+  "version": "1.9.0"
+}
