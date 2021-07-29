@@ -1,4 +1,4 @@
-# `gulp-cdnify-plus`
+# `zoos-mp-gulp-cdnify`
 
 fock 自 [gulp-cdnify](https://github.com/kaiqigong/gulp-cdnify)、[grunt-cdnify](https://github.com/callumlocke/grunt-cdnify)， 将 `类html标记语言` 的解析器修改为 [@vivaxy/wxml](https://github.com/vivaxy/wxml),原仓库更适用于Html标签，在某些情况下会出现标签解析不正确.
 
@@ -7,14 +7,14 @@ fock 自 [gulp-cdnify](https://github.com/kaiqigong/gulp-cdnify)、[grunt-cdnify
 ## install
 
 ```bash
-npm i gulp-cdnify-plus --save-dev
+npm i zoos-mp-gulp-cdnify --save-dev
 ```
 
 ## Usage
 
 ```javascript
 gulp.task("cdnify", function () {
-  var cdnify = require("gulp-cdnify-plus");
+  var cdnify = require("zoos-mp-gulp-cdnify");
 
   return gulp
     .src(["dist/**/*.{css,html,wxml}"])

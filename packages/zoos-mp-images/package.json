@@ -1,8 +1,8 @@
 {
   "name": "zoos-mp-images",
-  "version": "1.9.0",
+  "version": "1.0.0",
   "description": "处理图片",
-  "author": "lizong <running@vip.163.com>",
+  "author": "xxiaojiee",
   "homepage": "https://github.com/xxiaojiee/zoos-mp",
   "license": "MIT",
   "main": "lib/index.js",

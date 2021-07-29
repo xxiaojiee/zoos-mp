@@ -1,6 +1,6 @@
 {
   "name": "zoos-mp-service",
-  "version": "1.9.0",
+  "version": "1.0.0",
   "description": "提供插件化的零配置小程序脚手架服务",
   "keywords": [
     "zoos-mp-service",
@@ -8,7 +8,7 @@
     "gulp",
     "miniapp"
   ],
-  "author": "lizong <running@vip.163.com>",
+  "author": "xxiaojiee",
   "homepage": "https://github.com/xxiaojiee/zoos-mp",
   "license": "MIT",
   "main": "bin/index.js",

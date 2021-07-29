@@ -1,6 +1,6 @@
 {
   "name": "zoos-mp-devtools-ci",
-  "version": "1.9.0",
+  "version": "1.0.0",
   "description": "对微信客户端开发者工具提供的命令服务二次封装",
   "keywords": [
     "微信小程序",
@@ -8,7 +8,7 @@
     "ci",
     "http"
   ],
-  "author": "lizong <running@vip.163.com>",
+  "author": "xxiaojiee",
   "homepage": "https://github.com/xxiaojiee/zoos-mp#readme",
   "license": "MIT",
   "main": "lib/CLI.js",

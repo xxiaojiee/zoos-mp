@@ -1,8 +1,8 @@
 {
   "name": "zoos-mp-cli",
-  "version": "1.9.0",
+  "version": "1.0.0",
   "description": "生成小程序脚手架模板",
-  "author": "lizong <running@vip.163.com>",
+  "author": "xxiaojiee",
   "homepage": "https://github.com/bigmeow/zoos-mp-cli",
   "license": "MIT",
   "main": "./bin/cli.js",
