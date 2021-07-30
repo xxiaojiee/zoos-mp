@@ -1,6 +1,6 @@
 {
   "name": "zoos-mp-service",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "提供插件化的零配置小程序脚手架服务",
   "keywords": [
     "zoos-mp-service",
@@ -42,7 +42,7 @@
     "dotenv-expand": "^5.1.0",
     "fs-extra": "^8.1.0",
     "gulp": "^4.0.2",
-    "zoos-mp-gulp-cdnify": "^1.0.0",
+    "zoos-mp-gulp-cdnify": "^1.0.1",
     "gulp-if": "^3.0.0",
     "gulp-insert": "^0.5.0",
     "gulp-install": "^1.1.0",

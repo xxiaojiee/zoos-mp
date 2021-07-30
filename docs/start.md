@@ -48,7 +48,7 @@ npm i zoos-mp-service -D
 | [zoos-mp-cli](https://github.com/xxiaojiee/zoos-mp/tree/master/packages/zoos-mp-cli)                 | 负责创建新项目，初始化项目模板的程序（核心包已内置）                           |
 | [zoos-mp-devtools-ci](https://github.com/xxiaojiee/zoos-mp/tree/master/packages/zoos-mp-devtools-ci) | 负责调用微信小程序开发者工具相关的 CI 命令，比如构建 NPM、上传（核心包已内置） |
 | [zoos-mp-images](https://github.com/xxiaojiee/zoos-mp/tree/master/packages/zoos-mp-images)           | 负责将图片上传到阿里云或者七牛云 OSS （核心包已内置）                          |
-| [gulp-cdnify-plus](https://github.com/xxiaojiee/zoos-mp/tree/master/packages/gulp-cdnify-plus)           | gulp 插件，负责替换样式文件、wxml 文件中的图片地址 （核心包已内置）            |
+| [zoos-mp-gulp-cdnify](https://github.com/xxiaojiee/zoos-mp/tree/master/packages/zoos-mp-gulp-cdnify)           | gulp 插件，负责替换样式文件、wxml 文件中的图片地址 （核心包已内置）            |
 | [https://github.com/xxiaojiee/zoos-mp-template](https://github.com/xxiaojiee/zoos-mp-template)           | 初始化项目具体的模板                                                           |
 
 ## 项目推荐目录结构

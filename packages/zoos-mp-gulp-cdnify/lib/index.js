@@ -10,7 +10,7 @@ const rewriteCSSURLs = require("css-url-rewriter");
 const wxml = require("@vivaxy/wxml");
 
 // Consts
-const PLUGIN_NAME = "gulp-cdnify-plus";
+const PLUGIN_NAME = "zoos-mp-gulp-cdnify";
 
 function isLocalPath(filePath) {
   return (

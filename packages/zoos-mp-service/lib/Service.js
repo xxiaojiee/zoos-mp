@@ -150,6 +150,8 @@ module.exports = class Service {
         error(`Error loading ${chalk.bold("zoos.config.js")}:`);
         throw e;
       }
+    }else{
+      error(`${chalk.bold("zoos.config.js")} does not exist`);
     }
 
     // 校验选项
