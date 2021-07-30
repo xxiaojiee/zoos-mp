@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "生成小程序脚手架模板",
   "author": "xxiaojiee",
-  "homepage": "https://github.com/bigmeow/zoos-mp-cli",
+  "homepage": "https://github.com/xxiaojiee/zoos-mp-cli",
   "license": "MIT",
   "main": "./bin/cli.js",
   "bin": {
